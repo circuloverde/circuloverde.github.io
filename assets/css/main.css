@@ -48,7 +48,25 @@
     font-family: 'BGReg';
     src: url('../fonts/BGReg.ttf');
 }
+@font-face {
+    font-family: 'Syne';
+    src: url('../fonts/SyneR.ttf');
+}
+@font-face {
+    font-family: 'SyneSB';
+    src: url('../fonts/SyneSB.ttf');
+}
+@font-face {
+    font-family: 'SyneB';
+    src: url('../fonts/SyneB.ttf');
+}
+@font-face {
+    font-family: 'SyneM';
+    src: url('../fonts/SyneM.ttf');
+}
 
+
+/*
 .syne-<uniquifier> {
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -56,13 +74,15 @@
   font-style: normal;
 }
 
+*/
+
 
 :root {
   --default-font: "Syne","Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito", sans-serif;
   --nav-font: "Poppins", sans-serif;
     --titulitos-secciones: "OddB";
-    --titulitos: "Syne";
+    --titulitos: "SyneM";
     --textitos: "Syne";
 }
 
