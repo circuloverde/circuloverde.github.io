@@ -3310,6 +3310,151 @@ font-size: 16px !important;
 }
 
 
+/*--------------------------------------------------------------
+# Equipo Section
+--------------------------------------------------------------*/
+
+
+
+#equipo .team-member {
+  background-color: var(--surface-color);
+  
+  position: relative;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding: 20px;
+  height: 100%;
+    margin-top: -30px;
+}
+
+@media (max-width: 468px) {
+  #equipo .team-member {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+#equipo .team-member .pic {
+  
+  width: 300px;
+  flex-shrink: 0;
+     
+    
+}
+
+#equipo .team-member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+#equipo .team-member:hover {
+  
+}
+
+#equipo .team-member .member-info {
+  padding-left: 20px;
+    padding-top: 120px;
+}
+
+@media (max-width: 468px) {
+  #equipo .team-member .member-info {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+}
+
+#equipo .team-member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+    color: var(--default-color);
+}
+
+#equipo .team-member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+#equipo .team-member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 468px) {
+  #equipo .team-member span::after {
+  
+  }
+}
+
+#equipo .team-member p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+    color: var(--default-color);
+}
+
+#equipo .team-member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+@media (max-width: 468px) {
+  #equipo .team-member .social {
+    justify-content: center;
+  }
+}
+
+#equipo .team-member .social a {
+  background: color-mix(in srgb, var(--default-color), transparent 94%);
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+}
+
+#equipo .team-member .social a i {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 16px;
+  margin: 0 2px;
+    
+}
+
+#equipo .team-member .social a:hover {
+  background: var(--accent-color);
+}
+
+#equipo .team-member .social a:hover i {
+  color: var(--contrast-color);
+}
+
+#equipo .team-member .social a+a {
+  margin-left: 8px;
+}
+
+
+.detalleteam {
+    color: var(--default-color) !important;
+    margin-bottom: -24px;
+   
+}
+
+#equipo p {
+   /* text-align: left !important; */
+}
 
 /*--------------------------------------------------------------
 # Clients Section
