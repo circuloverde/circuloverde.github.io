@@ -876,7 +876,7 @@ h6 {
 }
 
 #navegacionfooter {
-    padding-top: 20px;
+    padding-top: 50px;
     /* padding-top: 68px; */
     margin-bottom: 10px !important;
   
@@ -887,12 +887,12 @@ h6 {
 #footer .footer-newsletter {
   font-size: 15px;
     /* padding-top: 68px; */
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .redes {
     /* padding-top: 70px; */
-    padding-top: 22px;
+    padding-top: 52px;
 }
 .redes p {
     font-size: 15px !important;
