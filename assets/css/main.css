@@ -698,17 +698,6 @@ h6 {
 
 
 
-#footer .footer-newsletter {
-  font-size: 15px;
-    padding-top: 68px;
-}
-
-.redes {
-    padding-top: 68px;
-}
-.redes p {
-    font-size: 15px !important;
-}
 
 
 @media (max-width: 779px) {
@@ -886,6 +875,28 @@ h6 {
     background-repeat: no-repeat;
 }
 
+#navegacionfooter {
+    padding-top: 20px;
+    /* padding-top: 68px; */
+    margin-bottom: 10px !important;
+  
+  /*  align-content: flex-end; */
+   
+}
+
+#footer .footer-newsletter {
+  font-size: 15px;
+    /* padding-top: 68px; */
+    padding-top: 20px;
+}
+
+.redes {
+    /* padding-top: 70px; */
+    padding-top: 22px;
+}
+.redes p {
+    font-size: 15px !important;
+}
 
 
 /*--------------------------------------------------------------
@@ -2140,6 +2151,16 @@ background-size: cover !important;
 
     
 }
+
+@media (min-width: 1004px) {
+    #renova {
+    margin-top: -20px;
+    margin-bottom: -35px !important;
+  
+}
+
+}
+
 
 
 
