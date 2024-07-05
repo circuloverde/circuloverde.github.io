@@ -3456,6 +3456,17 @@ font-size: 16px !important;
    /* text-align: left !important; */
 }
 
+#equipo .team-member {
+    background: url(../img/fondo_team1.jpg) no-repeat center;
+    background-size: contain;
+}
+
+#equipo .member-info {
+    margin-left: -44px;
+    margin-right: 21px;
+    margin-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
