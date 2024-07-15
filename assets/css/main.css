@@ -810,7 +810,8 @@ h6 {
 
 @media screen and (max-width: 768px) {
   #footer .redes {
-   margin-top: -30px;
+
+      
       margin-bottom: 20px;
   }
 }
@@ -830,13 +831,14 @@ h6 {
 }
 
 .titulofooter {
-  font-size: 16px !important;
+    font-size: 16px !important;
     font-weight: 700;
+    font-family:var(--titulitos);
     margin-bottom: 20px;
     margin-top: 100px;
     color: white;
-    
-  font-family:var(--titulitos);
+   
+
 }
 
 
@@ -1899,6 +1901,11 @@ box-sizing: border-box;
     color: white;
 }
 
+ #tallerboton {
+        margin-top: 12px;
+        
+}
+
 
 @media (max-width: 779px) {
     #tallerboton {
@@ -1924,7 +1931,7 @@ box-sizing: border-box;
   align-items: center;
   background: url(../img/fondo_renovate.jpg) top center no-repeat;
   background-size: cover;
-  background-color: #f6f3ea;
+ 
 }
 
 @media (max-width: 500px) and (orientation: portrait) {
@@ -2014,7 +2021,7 @@ box-sizing: border-box;
 
 .showrooms .content h3 {
   font-size: 14px;
-  font-weight: 700;
+   font-weight: 700; 
   color: var(--accent-color);
   text-transform: uppercase;
 }
@@ -2102,7 +2109,7 @@ box-sizing: border-box;
 /*     margin-top:-370px;
     margin-bottom:-300px;*/
     
-    margin-top: -45vh;
+    margin-top: -40vh;
     margin-bottom: -30vh !important;
   
 }
@@ -2158,6 +2165,12 @@ box-sizing: border-box;
     padding-left: 20px;
     
 }
+
+
+.textocita {
+    font-size: 30px !important;
+}
+
 
 @media (max-width: 1004px) {
     
@@ -2419,7 +2432,7 @@ box-sizing: border-box;
 
 
 
-@media (min-width: 1004px) {
+@media (min-width: 1200px) {
     
     #venderopa {
     padding-bottom: 60px;
@@ -2638,6 +2651,14 @@ box-sizing: border-box;
 
 
 
+@media (max-width: 1399px) and (min-width: 1200px) {
+    
+#fototallerdetalle {
+    margin-left: -85px;
+    width: 40.7%;
+}
+
+}
 
 @media (min-width:1212px)
 {
@@ -2673,9 +2694,10 @@ box-sizing: border-box;
 
 .alt-features .icon-box h4 {
   font-size: 17px;
-  font-weight: 700;
+    font-weight: 700;
   margin: 0 0 10px 0;
     font-family:var(--titulitos);
+
 }
 
 
@@ -3514,6 +3536,12 @@ position: relative;
 }
 }
 
+@media (max-width: 380px) {
+    #contenedortestimonios {
+    margin-top: -30vw;
+}
+}
+
 
 
 #testimonio1 {
@@ -3680,6 +3708,11 @@ position: relative;
 }
 }
 
+@media (max-width: 416px) {
+    #profescontenedor {
+    margin-top: -30vw !important;
+}
+}
 
 .team .team-member {
 
@@ -4024,6 +4057,52 @@ font-size: 16px !important;
 }
     
 }
+
+@media (max-width: 391px) and (min-width: 355px) {
+    
+    .profe1 {
+        margin-top: -4vw !important;
+    }
+    
+    .profe3 {
+        margin-top: -9w !important;
+    }
+       .profe2 {
+        margin-top: -16vw !important;
+    }
+    #textoprofe2 {
+        padding-bottom: 35px !important;
+
+    }
+    #textoprofe3 {
+        padding-bottom: 3vw !important;
+
+    }
+    #textoprofe4 {
+        padding-bottom: 3vw !important;
+
+    }
+    .profe4 {
+        margin-top: -9vw !important;
+    }
+}
+
+
+
+@media (max-width: 391px) and (min-width: 384px) {
+    
+
+
+    #textoprofe3 {
+        padding-bottom: 8vw !important;
+
+    }
+    #textoprofe4 {
+        padding-bottom: 8vw !important;
+
+    }
+
+}
 /*--------------------------------------------------------------
 # Equipo Section
 --------------------------------------------------------------*/
@@ -4294,7 +4373,7 @@ font-size: 16px !important;
 #fotocontacto {
  /*   margin-top: -110px; */
     align-items: flex-start !important;
-    margin-top: -8px;
+    margin-top: -15px;
 }
 
 
@@ -5455,3 +5534,56 @@ font-size: 16px !important;
         font-size: 16px !important;
     }
 }
+
+
+/* 1366 */
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+    .nombretestimonio {
+        margin-top: 65px;
+        margin-bottom: 20px;
+    }
+    #fotocontactocurso {
+        margin-top: -20px;
+    }
+
+    #fotocarrito {
+        margin-left: -20px;
+
+    }
+    #hero #textohome h1 {
+        font-size: 5.6vw !important;
+            
+    }
+    
+    #hero #textohome p {
+        font-size: 1.7vw;
+    }
+   
+
+}
+
+
+
+/* 390 */
+
+
+
+@media (min-width: 415px) {
+    
+    .footer390y360 {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 414px) {
+
+    .footermasde390 {
+        display: none;
+    }
+}
+
+
+
